@@ -23,6 +23,10 @@ Our model consist on a small CNN with sequentially stacked layers:
 - A hidden Dense layer, which learns about the patterns on the 1D vector.
 - The Output dense layer, which uses the softmax activation method to classify each digit between the 10 possible categories.
 
+### Compiling
+
+We compile the model in a standard way: We use the Adam optimizer, with sparse categorical cross-entropy (useful for many categories with integer labels) and with the accuracy as the metric.
+
 ### Training
 
 During the training, the model passes through 15 epochs, each with a batch size of 128. We defined an early stopping callback, so that if the model doesn't improves its validation loss during 3 epochs, the training stops.
