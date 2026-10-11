@@ -36,3 +36,7 @@ During the training, the model passes through 15 epochs, each with a batch size 
 The loss and accuracy of the training and validation sets are relatively close 4 epochs, so the model is not overfitting nor underfitting.
 
 The model has an accuracy of 98.7% on the test set, which is quite high, and a loss of 0.043.
+
+## Answers and Discussion
+
+The answers and discussion stated in the instructions are directly included in the notebook in this repository.
